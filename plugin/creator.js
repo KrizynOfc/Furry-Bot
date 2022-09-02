@@ -32,7 +32,7 @@ let handler = async(m, { conn }) => {
     contextInfo: { //forwardingScore: 99999, isForwarded: true,
         externalAdReply: { //showAdAttribution: true,
         	sourceUrl: 'https://vt.tiktok.com/ZSRRmS8vh/',
-            title: 'Jangan Bully Zivfurr Dia Kang Kopas <3',
+            title: 'Jangan Bully Nainn Dia Kang Kopas <3',
             body: 'Follow Tiktok Pacar Saya Bang',
           thumbnail: await (await fetch(pp)).buffer()
         }
