@@ -148,7 +148,7 @@ Official By @${'0'.split('@')[0]}`, 'Rules', '.rules', m)
 
     } catch (e) {
 
-        conn.sendButtonLoc(m.chat, 'https://telegra.ph/file/ba477e7f4401549578f7b.jpg', caption, `⌨️Typing to build
+        conn.sendButtonLoc(m.chat, 'https://telegra.ph/file/8fc25d7dcbd470c2f25b3.jpg', caption, `⌨️Typing to build
 
 ${usedPrefix}build <type>
 
