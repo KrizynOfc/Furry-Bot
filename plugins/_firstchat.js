@@ -13,7 +13,7 @@ handler.all = async function (m) {
     let hao = `*Official Bot By @${'0'.split('@')[0]}* 
 *Powered By @${global.owner[1].split('@')[0]}*`
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
-        await conn.send3ButtonLoc(m.chat, 'https://telegra.ph/file/606ecba4019ea293aa26f.jpg', ` ${ucapan()}, @${m.sender.split`@`[0]}
+        await conn.send3ButtonLoc(m.chat, 'https://telegra.ph/file/8fc25d7dcbd470c2f25b3.jpg', ` ${ucapan()}, @${m.sender.split`@`[0]}
  ${user.banned ? 'kamu dibanned' : `
 Saya Adalah Cute, Bot What'sapp Yang Bisa Anda Gunakan Untuk Membuat Sticker, Mendownload Sesuatu, Bermain Game, Dll.
 
