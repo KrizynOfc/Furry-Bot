@@ -2,7 +2,7 @@ let moment = require('moment-timezone')
 let fs = require('fs')
 let handler = async (m, { conn, command, text }) => {
 let emot = conn.pickRandom(["👋"])
-let img = await (await fetch('https://telegra.ph/file/623b6c1ebe07ca5181965.jpg')).buffer()
+let img = await (await fetch('https://telegra.ph/file/8fc25d7dcbd470c2f25b3.jpg')).buffer()
 let user = global.db.data.users[m.sender]
 conn.sendMessage(m.chat, {
     	react: {
