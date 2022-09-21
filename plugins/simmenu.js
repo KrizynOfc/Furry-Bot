@@ -108,10 +108,10 @@ const fkgif = {
 
 ●────━───༺༻───━────●
                 *《 BOT INFO 》*
-⚘ *Bot Name: CUTE IQ-MD IQ MD*
-⚘ *Creator: Stah Ziv San*
+⚘ *Bot Name: Luminous-MD*
+⚘ *Creator: Rayhn*
 ⚘ *Contact Owner Bot*
-*http://wa.me/16199961931*
+*https://wa.me/62895627514079*
 ⚘ *Tanggal: ${date}*  
 ⚘ *Jam: ${time} WIB*
 ⚘ *Status: 「 ${mode} 」*
@@ -125,7 +125,7 @@ _*${jhari} Hari ${jjam} Jam ${mmmenit} Menit ${ddetik} Detik*_
 _*${harii} Hari ${jamm} Jam ${menitt} Menit ${detikk} Detik*_ 
 ✧ 𝙉𝘼𝙏𝘼𝙇
 _*${nhari} Hari ${njam} Jam ${nmenit} Menit ${mdetek} Detik*_ 
-✧ 𝙐𝙇𝘼𝙉𝙂 𝙏𝘼𝙃𝙐𝙉 𝙊𝙒𝙉𝙀𝙍 
+✧ 𝘿𝘼𝙔 𝘾𝙍𝙀𝘼𝙏𝙊𝙍 
 _*${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*_
 ●────━───༺༻───━────●
 
@@ -150,7 +150,7 @@ _*${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*_
 let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner
 
  *Official Bot By @${'0'.split('@')[0]}* 
- *Powered By @${'16199961931'.split('@')[0]}*`
+ *Powered By @${'62895627514070'.split('@')[0]}*`
        let judul = `${ucapanl()}`.trim() 
        const sections = [
                               {
@@ -318,26 +318,26 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                                 }, {
                                 "rows": [{                                	
                                 "title": "📝 ∫  Catatan Perubahan ",
-                                "description": "Last Update Terakhir Di CUTE IQ-MD",
+                                "description": "Last Update Terakhir Di ʟᴜᴍɪɴᴏᴜs-ᴍᴅ",
                                 "rowId": ".notes"                  
                 }],                
                                 "title": "▮Last Update 」"
                                 }, {
                                 "rows": [{                                	
-                  "title": "「 🗨️ 」› Ziv Chat ",
+                  "title": "「 🗨️ 」› Ray Chat ",
                   "description": "Mengobrol Dengan Orang Lain",
                   "rowId": ". start"
                 }],
                                 "title": "▮Anonymous Chat 」"
                                 }, {
                                 "rows": [{                                	
-                                         "title": "📣 › Group Setting ",
+                                         "title": "📣 › Dashboard ",
                                          "description": "Setting Grup",
-                                         "rowId": ".setelangrub" 
+                                         "rowId": ".dashboard" 
                                      }, {
                                          "title": "⚙️ › Bot Setting ",
                                          "description": "Setting Bot",
-                                         "rowId": ".botsett" 
+                                         "rowId": ".on" 
                  }],
                                 "title": "▮Pengaturan 」" 
                                 }, {

@@ -4,39 +4,62 @@ global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Want some h
 global.thumbt = global.img
 global.fsx = 999999999999
 global.kontak = [
-['16199961931', 'Ziv San', true], 
-['6282179137771', 'HAORI IQ-MD', true] 
+['62895627514070', 'Ray San', true], 
+['6281779211748', 'YUKINO-MD', true] 
 ]
-global.APIs = { // API Prefix
-  // name: 'https://website'
-  nrtm: 'https://nurutomo.herokuapp.com',
-  bg: 'http://bochil.ddns.net',
-  xteam: 'https://api.xteam.xyz',
-  zahir: 'https://zahirr-web.herokuapp.com',
-  zeks: 'https://api.zeks.me',
-  pencarikode: 'https://pencarikode.xyz',
-  LeysCoder: 'https://leyscoders-api.herokuapp.com',
-  neoxr: 'https://api.neoxr.eu.org',
-  amel: 'https://melcanz.com',
-  hardianto: 'https://hardianto.xyz',
-  lol: 'https://api.lolhuman.xyz'
+//Lolkey
+global.lolkey = 'sonelganz'
+//xteamkey
+global.xkey = 'NezukoTachibana281207'
+global.zenzkey = 'f9fccfcff1'
+
+//apikey
+global.APIs = {
+ amel : 'https://melcanz.com',
+ bg : 'http://bochil.ddns.net',
+ bsbt : 'https://rest-beni.herokuapp.com',
+ bx : 'https://bx-hunter.herokuapp.com',
+ dhnjing : 'https://dhnjing.xyz',
+ dzx : 'https://api.dhamzxploit.my.id',
+ erdwepe : 'https://erdwpe-api.herokuapp.com',
+ fdci : 'https://api.fdci.se',
+ hardianto : 'https://hardianto.xyz',
+ jonaz : 'https://jonaz-api-v2.herokuapp.com',
+ LeysCoder : 'https://leyscoders-api.herokuapp.com',
+ lolhuman : 'https://api.lolhuman.xyz',
+ neoxr : 'https://api.neoxr.my.id',
+ nrtm : 'https://nurutomo.herokuapp.com',
+ nzcha : 'http://nzcha-apii.herokuapp.com',
+ pencarikode : 'https://pencarikode.xyz',
+ violetics : 'https://violetics.pw',
+ xteam : 'https://api.xteam.xyz',
+ zahir : 'https://zahirr-web.herokuapp.com',
+ zekais : 'http://zekais-api.herokuapp.com',
+ zeks : 'https://api.zeks.xyz',
+ zenz : 'https://zenzapis.xyz'
 }
-global.APIKeys = { // APIKey Here
-  // 'https://website': 'apikey'
-  'https://api.neoxr.eu.org': 'yntkts',
-  'https://api.xteam.xyz': 'Apikeys',
-  'https://melcanz.com': 'Apikeys',
-  'https://api.lolhuman.xyz': 'Apikeys',
-  'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.me': 'apivinz',
-  'https://pencarikode.xyz': 'pais',
-  'https://hardianto.xyz': 'hardianto',
-  'https://leyscoders-api.herokuapp.com': 'dappakntlll'
+
+/*Apikey*/
+global.APIKeys = {
+ 'https://api.neoxr.my.id' : 'JeJU827J',
+ 'https://api.lolhuman.xyz' : 'sonelganz',
+ 'https://api.xteam.xyz' : 'NezukoTachibana281207',
+ 'https://api.zeks.xyz' : 'apivinz',
+ 'https://hardianto-chan.herokuapp.com' : 'hardianto',
+ 'https://hardianto.xyz' : 'hardianto',
+ 'https://leyscoders-api.herokuapp.com' : 'MIMINGANZ',
+ 'https://melcanz.com' : 'manHkmst',
+ 'https://pencarikode.xyz' : 'pais',
+ 'https://rest-beni.herokuapp.com' : 'benniismaelapikey',
+ 'https://violetics.pw' : 'beta',
+ 'https://zahirr-web.herokuapp.com' : 'zahirgans',
+ 'https://zekais-api.herokuapp.com' : 'zekais',
+ 'https://zenzapis.xyz' : 'f9fccfcff1'
 }
 
 global.linkyt = 'https://youtu.be/60yZO4UQKdI'
 global.WM = '𝑴𝒚𝑩𝒐𝒕-𝑴𝒖𝒍𝒕𝒊 𝑫𝒆𝒗𝒊𝒄𝒆 𝑩𝒚 𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷'
-global.linkgc = 'https://chat.whatsapp.com/Kyz397uqvJZ5AvX7I4BSID'
+global.linkgc = 'https://chat.whatsapp.com/HqEu42TkWnrCEdDf7gj4b7'
 global.linkig = 'https://www.instagram.com/the.sad.boy01'
 global.deslink = ''
 global.logo = 'https://telegra.ph/file/1665521d176fbf172d735.jpg'
@@ -44,7 +67,7 @@ global.titlink = 'Folllow me on Instagram'
 global.bodlink = '@the.sad.boy01'
 
 global.wait = '_*𝐬𝐞𝐝𝐚𝐧𝐠 𝐝𝐢 𝐩𝐫𝐨𝐬𝐞𝐬 ...*_'
-global.eror = '_*мααƒ ѕєяνєя тι∂αк ѕтαвιℓ..*_'
+global.eror = '_*ᴍᴀᴀғ sᴇʀᴠᴇʀ ᴛɪᴅᴀᴋ sᴛᴀʙɪʟ..*_'
 
 //========Url Template Buttons==========//
 global.dtu = '🌏 GROUP OFFICIAL'
@@ -52,7 +75,7 @@ global.urlnya = global.linkgc
 
 //============= callButtons ============//
 global.dtc = '𝒄𝒂𝒍𝒍 𝒐𝒘𝒏𝒆𝒓'
-global.phn = '+62 895-3362-82144'
+global.phn = '+62 895-6275-14070'
 
 //========== Tampilan Bot =============//
 global.sa = '╭─'
